@@ -12,7 +12,7 @@ jobs:
 
     env:
       HF: ${{ secrets.HF }} 
-    run: git clone https://huggingface.co/spaces/KunalAIML/demo2# <== Inject the Hugging Face token as an env variable
+    run: git clone https://huggingface.co/spaces/KunalAIML/demo2 
 
     steps:
       - name: Checkout Code
